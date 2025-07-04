@@ -2,16 +2,17 @@
 
 This project is divided into three parts: download, sgml download, and parsing. The detailed documentation is in the documentation page [here](https://australian-parliamentary-speech.github.io/House_Scraper/). 
 
-# Install Julia
-
-To run the package, Julia needs to be installed. For help see https://julialang.org/install/
-
 # Windows users
 
 All commands here work natively for Mac and Linux users.
 
-Since this project uses bash scripts (e.g., ./run house), Windows users need a bash environment to run these commands. One option is to install [Git Windows](https://git-scm.com/downloads/win) to create a bash shell environment. Once installed, right click "Git Bash Here" and run bash commands there. 
-```
+Since this project uses bash scripts (e.g., ```./run house```), Windows users need a bash environment to run these commands. One option is to install [Git Windows](https://git-scm.com/downloads/win) to create a bash shell environment. Once installed, right click "Git Bash Here" and run bash commands there. 
+
+
+# Install Julia
+
+To run the package, Julia needs to be installed. For help see https://julialang.org/install/
+
 
 # Download the XML files
 
