@@ -26,7 +26,7 @@ Go into the directory:
 cd Download
 ```
 
-In the directory, run:
+In the directory (in a bash environment), run:
 ```
 ./run house
 ```
@@ -49,7 +49,7 @@ Go into the directory
 cd sgml2xml
 ```
  
-In the directory, run:
+In the directory (in a bash environment), run:
 ```
 ./run house
 ```
@@ -80,10 +80,6 @@ You would have to copy all the downloaded XML files into Inputs/hansard/, first 
 mkdir Inputs/hansard/xmls
 ```
 
-For Windows users:
-```
-mkdir Inputs\hansard\xmls
-```
 
 ```
 mv -f ../sgml2xml/house\_xmls/* Inputs/hansard/xmls
@@ -101,7 +97,21 @@ mv -f ../sgml2xml/senate\_xmls/* Inputs/hansard/xmls
 mv -f ../Download/sitemap\_xmls\_senate/* Inputs/hansard/xmls
 ```
 
+In the directory (in a bash environment), run:
+```
+./run Inputs/hansard/hansard.toml
+```
+The output file will be in Outputs/hansard/{{year}}/
+
+To run different year ranges or a specific year, hansard.toml file needs to be editted.
+
+
 For Windows users:
+
+```
+mkdir Inputs\hansard\xmls
+```
+
 ```
 move /Y ..\sgml2xml\house_xmls\* Inputs\hansard\xmls\
 ```
@@ -110,11 +120,10 @@ move /Y ..\sgml2xml\house_xmls\* Inputs\hansard\xmls\
 move /Y ..\Download\sitemap_xmls_senate\* Inputs\hansard\xmls\
 ```
 
-In the directory, run:
+In the directory (in a bash environment), run:
 ```
 ./run Inputs/hansard/hansard.toml
 ```
-The output file will be in Outputs/hansard/{{year}}/
 
-To run different year ranges or a specific year, hansard.toml file needs to be editted.
+
 
