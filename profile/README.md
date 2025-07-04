@@ -1,3 +1,5 @@
+# How to run
+
 This project is divided into three parts: download, sgml download, and parsing. The detailed documentation is in the documentation page [here](https://australian-parliamentary-speech.github.io/House_Scraper/). 
 
 # Install Julia
