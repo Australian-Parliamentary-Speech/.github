@@ -82,19 +82,19 @@ mkdir Inputs/hansard/xmls
 
 
 ```
-mv -f ../sgml2xml/house\_xmls/* Inputs/hansard/xmls
+mv -f ../sgml2xml/house_xmls/* Inputs/hansard/xmls
 ```
 ```
-mv -f ../Download/sitemap\_xmls\_house/* Inputs/hansard/xmls
+mv -f ../Download/sitemap_xmls_house/* Inputs/hansard/xmls
 ```
 Or
 
 
 ```
-mv -f ../sgml2xml/senate\_xmls/* Inputs/hansard/xmls
+mv -f ../sgml2xml/senate_xmls/* Inputs/hansard/xmls
 ```
 ```
-mv -f ../Download/sitemap\_xmls\_senate/* Inputs/hansard/xmls
+mv -f ../Download/sitemap_xmls_senate/* Inputs/hansard/xmls
 ```
 
 In the directory (in a bash environment), run:
