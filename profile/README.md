@@ -16,7 +16,7 @@ To run the package, Julia needs to be installed. For help see https://julialang.
 
 # Download the XML files
 
-Step one, in your preferred directory, clone the Download repo with HTTP or SSH:
+Step one, in your preferred directory, for example Hansard_Run/, clone the Download repo with HTTP or SSH:
 ```
 git clone https://github.com/Australian-Parliamentary-Speech/Download.git
 ```
@@ -39,7 +39,7 @@ The XML files should be in the directory sitemap\_xmls\_senate or sitemap\_xmls\
 
 
 # Download the SGML files and convert them to XML files
-Step one, in your preferred directory, clone the sgml2xml repo with HTTP or SSH:
+Step one, in your preferred directory, for example Hansard_Run/, clone the sgml2xml repo with HTTP or SSH:
 ```
 git clone https://github.com/Australian-Parliamentary-Speech/sgml2xml.git
 ```
@@ -64,7 +64,7 @@ The XML files should be in the directory senate\_xmls or house\_xmls
 
 # Parsing
 
-Step one, in your preferred directory, clone this repo with HTTP or SSH:
+Step one, in your preferred directory, for example Hansard_Run/, clone this repo with HTTP or SSH:
 ```
 git clone https://github.com/Australian-Parliamentary-Speech/House_Scraper.git
 ```
