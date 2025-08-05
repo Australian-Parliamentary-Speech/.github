@@ -77,7 +77,7 @@ cd Scraper
 You would have to copy all the downloaded XML files into Inputs/hansard/, first make the directory:
 
 ```
-mkdir Inputs/hansard/<senate or house>_xmls
+mkdir -p Inputs/hansard/<senate or house>_xmls
 ```
 
 ```
