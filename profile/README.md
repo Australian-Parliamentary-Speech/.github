@@ -64,7 +64,7 @@ The XML files should be in the directory senate\_xmls or house\_xmls
 
 # Parsing
 
-Step one, in your preferred directory, for example Hansard_Run/, clone this repo with HTTP or SSH:
+Step one, in your preferred directory, clone this repo with HTTP or SSH:
 ```
 git clone https://github.com/Australian-Parliamentary-Speech/House_Scraper.git
 ```
@@ -77,52 +77,43 @@ cd House_Scraper
 You would have to copy all the downloaded XML files into Inputs/hansard/, first make the directory:
 
 ```
-mkdir Inputs/hansard/xmls
+mkdir Inputs/hansard/<senate or house>_xmls
 ```
 
-
 ```
-mv -f ../sgml2xml/house_xmls/* Inputs/hansard/xmls
-```
-```
-mv -f ../Download/sitemap_xmls_house/* Inputs/hansard/xmls
-```
-Or
-
-
-```
-mv -f ../sgml2xml/senate_xmls/* Inputs/hansard/xmls
+mv -f ../sgml2xml/<senate or house>\_xmls/* Inputs/hansard/<senate or house>_xmls
 ```
 ```
-mv -f ../Download/sitemap_xmls_senate/* Inputs/hansard/xmls
+mv -f ../Download/sitemap\_xmls\_<senate or house>/* Inputs/hansard/<senate or house>_xmls
 ```
 
-In the directory (in a bash environment), run:
+In the directory, run:
 ```
-./run Inputs/hansard/hansard.toml
+./run Inputs/hansard/<senate or house>.toml
 ```
-The output file will be in Outputs/hansard/{{year}}/
+The output file will be in Outputs/<Senate or House>CSV
 
 To run different year ranges or a specific year, hansard.toml file needs to be editted.
+
 
 
 For Windows users:
 
 ```
-mkdir Inputs\hansard\xmls
+mkdir Inputs\hansard\<senate or house>_xmls
 ```
 
 ```
-move /Y ..\sgml2xml\house_xmls\* Inputs\hansard\xmls\
+move /Y ..\sgml2xml\<senate or house>_xmls\* Inputs\hansard\<senate or house>_xmls\
 ```
 
 ```
-move /Y ..\Download\sitemap_xmls_senate\* Inputs\hansard\xmls\
+move /Y ..\Download\sitemap_xmls_<senate or house>\* Inputs\hansard\<senate or house>_xmls\
 ```
 
 In the directory (in a bash environment), run:
 ```
-./run Inputs/hansard/hansard.toml
+./run Inputs/hansard/<senate or house>.toml
 ```
 
 
