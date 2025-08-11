@@ -43,7 +43,7 @@ The XML files should be in the directory sitemap_xmls_senate or sitemap_xmls_hou
 
 
 # Download the SGML files and convert them to XML files
-Step one, in your preferred directory (a different one from before), for example HansardScraper/, clone the sgml2xml repo with HTTP or SSH:
+Step one, in your preferred directory, for example HansardScraper/, clone the sgml2xml repo with HTTP or SSH:
 ```
 cd HansardScraper
 ```
