@@ -1,6 +1,6 @@
 # Overview
 
-This project is divided into three parts, which correspond to three repos: Download, sgml2xml, and Scraper. The repo Download downloads the XML files directly from the Parlinfo roadmap. The repo sgml2xml downloads the sgml files and convert them into XML files. This is for the years where the XML files are missing. Finally Scraper parses the XML files and produces CSV files that contain all the speech information. The detailed documentation is in the documentation page [here](https://australian-parliamentary-speech.github.io/House_Scraper/). 
+This project is divided into three parts, which correspond to three repos: Download, sgml2xml, and Scraper. The repo Download downloads the XML files directly from the Parlinfo roadmap. The repo sgml2xml downloads the sgml files and convert them into XML files. This is for the years where the XML files are missing. Finally Scraper parses the XML files and produces CSV files that contain all the speech information. The detailed documentation is in the documentation page [here](https://australian-parliamentary-speech.github.io/Scraper/). 
 
 # Windows users
 
@@ -123,7 +123,7 @@ For House:
 
 The output file will be in Outputs/SenateCSV or Outputs/HouseCSV
 
-To run different year ranges or a specific year,senate.toml or house.toml file needs to be editted (details see [here](https://australian-parliamentary-speech.github.io/House_Scraper/)).
+To run different year ranges or a specific year,senate.toml or house.toml file needs to be editted (details see [here](https://australian-parliamentary-speech.github.io/Scraper/)).
 
 
 
