@@ -91,10 +91,10 @@ For Senate:
 mkdir -p Inputs/hansard/senate_xmls
 ```
 ```
-mv -f ../sgml2xml/senate_xmls/* Inputs/hansard/senate_xmls
+cp -f ../sgml2xml/senate_xmls/* Inputs/hansard/senate_xmls
 ```
 ```
-mv -f ../Download/sitemap_xmls_senate/* Inputs/hansard/senate_xmls
+cp -f ../Download/sitemap_xmls_senate/* Inputs/hansard/senate_xmls
 ```
 
 For House:
@@ -102,10 +102,10 @@ For House:
 mkdir -p Inputs/hansard/house_xmls
 ```
 ```
-mv -f ../sgml2xml/house_xmls/* Inputs/hansard/house_xmls
+cp -f ../sgml2xml/house_xmls/* Inputs/hansard/house_xmls
 ```
 ```
-mv -f ../Download/sitemap_xmls_house/* Inputs/hansard/house_xmls
+cp -f ../Download/sitemap_xmls_house/* Inputs/hansard/house_xmls
 ```
 
 In the directory, run:
@@ -136,11 +136,11 @@ mkdir Inputs\hansard\senate_xmls
 ```
 
 ```
-move /Y ..\sgml2xml\senate_xmls\* Inputs\hansard\senate_xmls\
+copy /Y ..\sgml2xml\senate_xmls\* Inputs\hansard\senate_xmls\
 ```
 
 ```
-move /Y ..\Download\sitemap_xmls_senate\* Inputs\hansard\senate_xmls\
+copy /Y ..\Download\sitemap_xmls_senate\* Inputs\hansard\senate_xmls\
 ```
 
 In the directory (in a bash environment), run:
@@ -155,11 +155,11 @@ mkdir Inputs\hansard\house_xmls
 ```
 
 ```
-move /Y ..\sgml2xml\house_xmls\* Inputs\hansard\house_xmls\
+copy /Y ..\sgml2xml\house_xmls\* Inputs\hansard\house_xmls\
 ```
 
 ```
-move /Y ..\Download\sitemap_xmls_house\* Inputs\hansard\house_xmls\
+copy /Y ..\Download\sitemap_xmls_house\* Inputs\hansard\house_xmls\
 ```
 
 In the directory (in a bash environment), run:
