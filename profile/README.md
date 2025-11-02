@@ -84,31 +84,7 @@ Go into the directory:
 cd Scraper
 ```
 
-You would have to copy all the downloaded XML files into Inputs/hansard/, first make the directory:
-
-For Senate:
-```
-mkdir -p Inputs/hansard/senate_xmls
-```
-```
-cp -f ../sgml2xml/senate_xmls/* Inputs/hansard/senate_xmls
-```
-```
-cp -f ../Download/sitemap_xmls_senate/* Inputs/hansard/senate_xmls
-```
-
-For House:
-```
-mkdir -p Inputs/hansard/house_xmls
-```
-```
-cp -f ../sgml2xml/house_xmls/* Inputs/hansard/house_xmls
-```
-```
-cp -f ../Download/sitemap_xmls_house/* Inputs/hansard/house_xmls
-```
-
-In the directory, run:
+If you have created these three directories in HansardScraper/ as the example, you can directory run in the directory:
 
 For Senate: 
 ```
@@ -119,6 +95,8 @@ For House:
 ```
 ./run Inputs/hansard/house.toml
 ```
+
+If you have created these directories differently, you would have to change the input directory in the house.toml file (details on how to change the file see [here](https://australian-parliamentary-speech.github.io/Scraper/))
 
 
 The output file will be in Outputs/SenateCSV or Outputs/HouseCSV
@@ -131,18 +109,6 @@ For Windows users:
 
 For Senate:
 
-```
-mkdir Inputs\hansard\senate_xmls
-```
-
-```
-copy /Y ..\sgml2xml\senate_xmls\* Inputs\hansard\senate_xmls\
-```
-
-```
-copy /Y ..\Download\sitemap_xmls_senate\* Inputs\hansard\senate_xmls\
-```
-
 In the directory (in a bash environment), run:
 ```
 ./run Inputs/hansard/senate.toml
@@ -150,22 +116,10 @@ In the directory (in a bash environment), run:
 
 For House:
 
-```
-mkdir Inputs\hansard\house_xmls
-```
-
-```
-copy /Y ..\sgml2xml\house_xmls\* Inputs\hansard\house_xmls\
-```
-
-```
-copy /Y ..\Download\sitemap_xmls_house\* Inputs\hansard\house_xmls\
-```
-
 In the directory (in a bash environment), run:
 ```
 ./run Inputs/hansard/house.toml
 ```
 
-
+If you have created these directories differently, you would have to change the input directory in the house.toml file (details on how to change the file see [here](https://australian-parliamentary-speech.github.io/Scraper/))
 
